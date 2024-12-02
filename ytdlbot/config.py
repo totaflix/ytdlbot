@@ -14,9 +14,9 @@ from blinker import signal
 # general settings
 WORKERS: int = int(os.getenv("WORKERS", 10))
 PYRO_WORKERS: int = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: int = int(os.getenv("APP_ID", 198214))
-APP_HASH = os.getenv("APP_HASH", "1234b90")
-TOKEN = os.getenv("TOKEN", "1234")
+APP_ID: int = int(os.getenv("APP_ID", "22920744"))
+APP_HASH = os.getenv("APP_HASH", "31cb93c017f265e4fa6d0ba91236b826")
+TOKEN = os.getenv("TOKEN", "7372293477:AAH4N16mFlIguATUSFh18YBYqIxoBf_cPR0")
 
 REDIS = os.getenv("REDIS", "redis")
 
@@ -24,7 +24,7 @@ ENABLE_VIP = os.getenv("VIP", False)
 OWNER = os.getenv("OWNER", "BennyThink")
 
 # limitation settings
-AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")
+AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "5659668981")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
 REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
